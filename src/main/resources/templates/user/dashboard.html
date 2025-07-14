@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+
+<head>
+	<title data-th-text="${loggedInUser.name}+' |  Dashboard'">
+		Profile Page
+	</title>
+</head>
+
+<body>
+	<div id="content">
+		<!-- Sidebar -->
+		<div th:if="${loggedInUser}">
+			<div data-th-replace="~{user/sidebar :: sidebar}"></div>
+		</div>
+
+		<!-- Main Content -->
+		<div class="sm:pl-64 pt-20" style="height: 1000px">
+			<!-- Welcome Message -->
+			<div class="flex justify-center flex-col items-center">
+				<h1 class="text-5xl">DASHBOARD</h1>
+			</div>
+
+			<!-- Boxes Section -->
+			<div class="flex flex-wrap mt-6 justify-center md:pt-20 gap-6">
+
+				<!-- Dashboard Box -->
+				<div class="bg-green-900 p-6 rounded-lg shadow-lg max-w-sm w-full flex flex-col items-center">
+					<img src="/image/dashboard.png" alt="Dashboard Icon" class="w-16 h-16 mb-2">
+					<h2 class="text-2xl text-white font-semibold mb-2">Dashboard</h2>
+					<p class="text-white">Open main menu</p>
+					<a data-th-href="@{'/user/dashboard'}"
+						class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Dashboard</a>
+				</div>
+
+				<!-- Profile Box -->
+				<div class="bg-blue-900 p-6 rounded-lg shadow-lg max-w-sm w-full flex flex-col items-center">
+					<img src="/image/user.png" alt="Profile Icon" class="w-16 h-16 mb-2">
+					<h2 class="text-2xl text-white font-semibold mb-2">Profile</h2>
+					<p class="text-white">View and edit your profile details.</p>
+					<a data-th-href="@{'/user/profile'}"
+						class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Go
+						to Profile</a>
+				</div>
+
+				<!-- Add Contact Box -->
+				<div class="bg-yellow-900 p-6 rounded-lg shadow-lg max-w-sm w-full flex flex-col items-center">
+					<img src="/image/add-user.png" alt="Add Contact Icon" class="w-16 h-16 mb-2">
+					<h2 class="text-2xl text-white font-semibold mb-2">Add Contact</h2>
+					<p class="text-white">Add a new contact to your list.</p>
+					<a data-th-href="@{'/user/contacts/add'}"
+						class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Add
+						Contact</a>
+				</div>
+
+				<!-- Contact Box -->
+				<div class="bg-pink-900 p-6 rounded-lg shadow-lg max-w-sm w-full flex flex-col items-center">
+					<img src="/image/google-contacts.png" alt="Contact Icon" class="w-16 h-16 mb-2">
+					<h2 class="text-2xl text-white font-semibold mb-2">Contact</h2>
+					<p class="text-white">View and manage your contacts.</p>
+					<a data-th-href="@{'/user/contacts'}"
+						class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">View
+						Contacts</a>
+				</div>
+
+				<!-- Feedback Box -->
+				<div class="bg-red-900 p-6 rounded-lg shadow-lg max-w-sm w-full flex flex-col items-center">
+					<img src="/image/good-feedback.png" alt="Feedback Icon" class="w-16 h-16 mb-2">
+					<h2 class="text-2xl font-semibold mb-2">Feedback</h2>
+					<p class="text-gray-600 dark:text-gray-400">Give us some feedback.</p>
+					<a href=""
+						class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Feedback</a>
+				</div>
+
+				<!-- Logout Box -->
+				<div class="bg-red-600 p-6 rounded-lg shadow-lg max-w-sm w-full flex flex-col items-center">
+					<img src="/image/logout.png" alt="Logout Icon" class="w-16 h-16 mb-2">
+					<h2 class="text-2xl text-white font-semibold mb-2">Logout</h2>
+					<p class="text-white">Securely log out of your account.</p>
+					<a data-th-href="@{'/do-logout'}"
+						class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Logout</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script>
+		console.log("this is profile page");
+	</script>
+</body>
+
+</html>

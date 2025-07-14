@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+<head>
+  <title>About Us</title>
+</head>
+<body>
+<div id="content" class="border">
+  <!-- About Us Section -->
+  <section class="bg-blue-600 dark:bg-blue-900 text-white py-20 animate__animated animate__fadeInDown">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">About Contact Manager</h2>
+      <p class="text-lg mb-8">Empowering users with seamless contact management solutions.</p>
+    </div>
+  </section>
+
+  <!-- Our Mission Section -->
+  <section class="py-20 dark:bg-gray-700 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">Our Mission</h2>
+      <p class="text-lg dark:text-gray-400 text-gray-600 max-w-3xl mx-auto">Our goal is to provide a secure, intuitive, and efficient way to manage contacts. We believe in simplicity, accessibility, and strong data protection for our users.</p>
+    </div>
+  </section>
+
+  <!-- Our Team Section -->
+  <section class="py-20 dark:bg-gray-800 bg-gray-100 animate__animated animate__fadeInUp">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 dark:text-white">Meet Our Team</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 dark:bg-gray-700 bg-white rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <h3 class="text-xl font-semibold mb-2">Shiv Kumar Umar</h3>
+          <p class="text-gray-600 dark:text-gray-400">Java Fullstack Developer, Passionate about building scalable web applications.</p>
+        </div>
+        <div class="p-6 dark:bg-gray-700 bg-white rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <h3 class="text-xl font-semibold mb-2">Development Team</h3>
+          <p class="text-gray-600 dark:text-gray-400">Dedicated engineers working to enhance your contact management experience.</p>
+        </div>
+        <div class="p-6 dark:bg-gray-700 bg-white rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <h3 class="text-xl font-semibold mb-2">Support Team</h3>
+          <p class="text-gray-600 dark:text-gray-400">Here to assist you 24/7 with any queries and technical support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="py-20 dark:bg-gray-700 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">Contact Us</h2>
+      <p class="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">Have questions? Reach out to our team for assistance at <strong>smartcontactmanager2025@gmail.com</strong></p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Contact Manager. All rights reserved.</p>
+      <p>Follow us on <a href="#" class="text-blue-400">Facebook</a>, <a href="#" class="text-blue-400">LinkedIn</a>, and <a href="#" class="text-blue-400">Instagram</a>.</p>
+    </div>
+  </footer>
+</div>
+<script>
+  console.log("About Us page");
+</script>
+</body>
+</html>

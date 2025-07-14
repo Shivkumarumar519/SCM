@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+<head>
+  <title>Our Services</title>
+</head>
+<body>
+<div id="content" class="border">
+  <!-- Services Section -->
+  <section class="bg-blue-600 dark:bg-blue-900 text-white py-20 animate__animated animate__fadeInDown">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Our Services</h2>
+      <p class="text-lg mb-8">Comprehensive contact management solutions tailored for your needs.</p>
+    </div>
+  </section>
+
+  <!-- Service Offerings Section -->
+  <section class="py-20 dark:bg-gray-700 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">What We Offer</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 dark:bg-gray-800 bg-white rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <h3 class="text-xl font-semibold mb-2">Easy Contact Management</h3>
+          <p class="text-gray-600 dark:text-gray-400">Add, edit, and organize your contacts in a user-friendly interface.</p>
+        </div>
+        <div class="p-6 dark:bg-gray-800 bg-white rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <h3 class="text-xl font-semibold mb-2">Secure Data Storage</h3>
+          <p class="text-gray-600 dark:text-gray-400">Your contacts are encrypted and stored securely to protect your privacy.</p>
+        </div>
+        <div class="p-6 dark:bg-gray-800 bg-white rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <h3 class="text-xl font-semibold mb-2">Multi-Platform Sync</h3>
+          <p class="text-gray-600 dark:text-gray-400">Seamlessly sync contacts across multiple devices for accessibility.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="py-20 dark:bg-gray-800 bg-gray-100 animate__animated animate__fadeInUp">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 dark:text-white">Why Choose Us?</h2>
+      <p class="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">We provide an easy-to-use, reliable, and secure solution for managing your contacts, ensuring convenience and protection at every step.</p>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="py-20 dark:bg-gray-700 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">Get in Touch</h2>
+      <p class="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">Need assistance? Contact our support team at <strong>smartcontactmanager2025@gmail.com</strong>.</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Contact Manager. All rights reserved.</p>
+      <p>Follow us on <a href="#" class="text-blue-400">Facebook</a>, <a href="#" class="text-blue-400">LinkedIn</a>, and <a href="#" class="text-blue-400">Instagram</a>.</p>
+    </div>
+  </footer>
+</div>
+<script>
+  console.log("Services page");
+</script>
+</body>
+</html>

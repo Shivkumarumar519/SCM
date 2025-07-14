@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+<head>
+  <title>Contact Us</title>
+</head>
+<body>
+<div id="content" class="border">
+  <!-- Contact Us Section -->
+  <section class="bg-blue-600 dark:bg-blue-900 text-white py-20 animate__animated animate__fadeInDown">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+      <p class="text-lg mb-8">We would love to hear from you! Get in touch with us today.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="py-20 dark:bg-gray-700 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">Get in Touch</h2>
+      <form class="max-w-lg mx-auto">
+        <input type="text" placeholder="Your Name" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-400">
+        <input type="email" placeholder="Your Email" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-400">
+        <textarea placeholder="Your Message" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-400"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded font-semibold hover:bg-blue-700 transition duration-300 dark:bg-blue-700 dark:hover:bg-blue-800">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Information Section -->
+  <section class="py-20 dark:bg-gray-800 bg-gray-100 animate__animated animate__fadeInUp">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 dark:text-white">Contact Information</h2>
+      <p class="text-lg dark:text-gray-400 text-gray-600 max-w-3xl mx-auto">Email: <strong>smartcontactmanager2025@gmail.com</strong></p>
+      <p class="text-lg dark:text-gray-400 text-gray-600 max-w-3xl mx-auto">Phone: <strong>+91 80810 12040</strong></p>
+      <p class="text-lg dark:text-gray-400 text-gray-600 max-w-3xl mx-auto">Address: Noida sector-15, 201301, India</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Contact Manager. All rights reserved.</p>
+      <p>Follow us on <a href="#" class="text-blue-400">Facebook</a>, <a href="#" class="text-blue-400">LinkedIn</a>, and <a href="#" class="text-blue-400">Instagram</a>.</p>
+    </div>
+  </footer>
+</div>
+<script>
+  console.log("Contact Us page");
+</script>
+</body>
+</html>
