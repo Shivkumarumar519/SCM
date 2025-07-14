@@ -49,7 +49,7 @@ Build Tool -	Maven<br>
 📦 Installation<br>
 1. Clone the repository
 
-git clone https://github.com/Shivkumarumar519/SCM.git<br>
+git clone https://github.com/Shivkumarumar519/SCM-2.0.git<br>
 cd SCM
 
 2. Configure the application<br>
