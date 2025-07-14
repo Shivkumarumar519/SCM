@@ -1,4 +1,5 @@
 #SCM 2.0
+
 💼 Smart Contact Manager (SCM)<br>
 A modern, secure, and user-friendly Spring Boot web application to manage contacts with powerful features like email verification, OAuth login (Google/GitHub), Tailwind CSS UI, dark mode, and more.
 
@@ -14,13 +15,13 @@ A modern, secure, and user-friendly Spring Boot web application to manage contac
 ✅ Excel Export for Contacts<br>
 ✅ Profile Image Upload Support<br>
 
-✨ What's New?
-🔒 Email Verification & Account Activation
-On signup, an email with a verification link is sent.
+✨ What's New?<br>
+🔒 Email Verification & Account Activation<br>
+On signup, an email with a verification link is sent.<br>
 
-Account becomes active only after verifying the email.
+Account becomes active only after verifying the email.<br>
 
-🔐 Google & GitHub Login (OAuth2)
+🔐 Google & GitHub Login (OAuth2)<br>
 Users can log in securely via:
 
 Google Account (OAuth2)
@@ -29,75 +30,56 @@ GitHub Account (OAuth2)
 
 Profile picture from OAuth is auto-fetched and displayed
 
-🌓 Dark Mode + Tailwind UI
+🌓 Dark Mode + Tailwind UI<br>
 Fully responsive design with Tailwind CSS
 
 Supports light and dark modes
 
 User-friendly layout and intuitive design
 
-🛠 Tech Stack
-Layer	Technology
-Frontend	Tailwind CSS, HTML, Thymeleaf
-Backend	Java 17, Spring Boot, Spring Security
-Database	MySQL
-OAuth Login	Google, GitHub
-Mail	JavaMailSender with verification links
-Export	Apache POI (Excel export)
-Build Tool	Maven
+🛠 Tech Stack<br>
+Layer	Technology<br>
+Frontend-	Tailwind CSS, HTML, Thymeleaf<br>
+Backend-	Java 17, Spring Boot, Spring Security<br>
+Database-	MySQL<br>
+OAuth Login-	Google, GitHub<br>
+Mail -	JavaMailSender with verification links<br>
+Export -	Apache POI (Excel export)<br>
+Build Tool -	Maven<br>
 
-📦 Installation
+📦 Installation<br>
 1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/Shivkumarumar519/SCM.git
-cd SCM
-2. Configure the application
-🔐 application.properties (recommended to externalize)
-Set the following properties (or use environment variables):
 
-properties
-Copy
-Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/scm
-spring.datasource.username=root
+git clone https://github.com/Shivkumarumar519/SCM.git<br>
+cd SCM
+
+2. Configure the application<br>
+🔐 application.properties <br>
+Set the following properties <br>
+
+spring.datasource.url=jdbc:mysql://localhost:3306/scm<br>
+spring.datasource.username=root<br>
 spring.datasource.password=yourpassword
 
-# Email config (use env vars ideally)
-spring.mail.username=your_email
-spring.mail.password=your_email_app_password
 🔐 For OAuth2
-properties
-Copy
-Edit
-spring.security.oauth2.client.registration.google.client-id=your_google_client_id
+
+spring.security.oauth2.client.registration.google.client-id=your_google_client_id<br>
 spring.security.oauth2.client.registration.google.client-secret=your_google_client_secret
 
-spring.security.oauth2.client.registration.github.client-id=your_github_client_id
+spring.security.oauth2.client.registration.github.client-id=your_github_client_id<br>
 spring.security.oauth2.client.registration.github.client-secret=your_github_client_secret
-🛡️ Don't hardcode secrets in public repos!
+
 
 ▶️ Run the App
-bash
-Copy
-Edit
+
 ./mvnw spring-boot:run
+
 Then open in browser:
 
-arduino
-Copy
-Edit
-http://localhost:8080
-📸 Screenshots
-Here’s a quick preview of the app:
+http://localhost:9000
 
-Add image tags here if needed — you already have screenshots
 
-👨‍💻 Author
-Shiv Kumar Umar
-Java Fullstack Developer
-GitHub | LinkedIn
+👨‍💻 Author<br>
+Shiv Kumar Umar<br>
+Java Fullstack Developer<br>
 
-📄 License
-This project is licensed under the MIT License.
