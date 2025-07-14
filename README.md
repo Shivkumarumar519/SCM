@@ -78,6 +78,19 @@ Then open in browser:
 
 http://localhost:9000
 
+<img width="1366" height="768" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/8cd71f0d-7a6d-43be-83d2-f2babfd49c11" />
+<img width="1366" height="768" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/aabe278a-3cfe-402c-bbf9-5cf9cb1383a7" />
+<img width="1366" height="768" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/827c8a1e-4047-44f1-aef5-d9cd685f2ee4" />
+<img width="1366" height="768" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/9df975e7-72b2-43de-921b-96cb37c3409d" />
+<img width="1366" height="768" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/f21f9ace-5ce5-4011-a1d9-34f0f7ebda3c" />
+<img width="1366" height="768" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/87009a80-97c0-4120-a925-d232010b21d3" />
+<img width="1366" height="768" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/763d2a50-5875-40ad-b6fb-1c881efb9487" />
+<img width="1366" height="768" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/171ab1bf-4543-428b-8c3e-1f6d0cd88a59" />
+<img width="1366" height="768" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/789c9bc3-ecff-4267-9c5b-6644a82bb575" />
+<img width="1366" height="768" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/94733771-b9bf-4863-a581-2267ec46ce92" />
+<img width="1366" height="768" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/95f3a597-ed12-4dca-8b20-174b64ebe723" />
+<img width="1366" height="768" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/33690fc8-9e17-4239-a243-1f444c202637" />
+
 
 👨‍💻 Author<br>
 Shiv Kumar Umar<br>
