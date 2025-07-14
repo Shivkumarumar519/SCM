@@ -54,8 +54,9 @@ git clone https://github.com/Shivkumarumar519/SCM.git<br>
 cd SCM
 
 2. Configure the application<br>
-🔐 application.properties <br>
-Set the following properties <br>
+🔐 application.properties<br>
+
+3. Set the following properties<br>
 
 spring.datasource.url=jdbc:mysql://localhost:3306/scm<br>
 spring.datasource.username=root<br>
