@@ -1,4 +1,4 @@
-#SCM 2.0
+#SCM_2.0
 
 💼 Smart Contact Manager (SCM)<br>
 A modern, secure, and user-friendly Spring Boot web application to manage contacts with powerful features like email verification, OAuth login (Google/GitHub), Tailwind CSS UI, dark mode, and more.
